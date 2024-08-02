@@ -6,7 +6,7 @@ import cubeLogo from "../assets/cube.svg";
 
 function Services() {
   return (
-    <div className=" w-full min-h-[921px] bg-[rgb(0,0,0)] p-4">
+    <div className=" w-full min-h-[500px] bg-[rgb(0,0,0)] p-4">
       <div className="container mx-auto ">
         <div className=" flex items-center justify-center pt-[50px]">
           <h1

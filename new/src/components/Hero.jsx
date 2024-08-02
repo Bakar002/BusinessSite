@@ -111,8 +111,8 @@ function Hero() {
       className="text-white mt-1 block w-full px-3 py-2 border border-[1px solid #636D79] bg-[#1C1C1C] rounded-md focus:outline-none"
       placeholder="Pick your upgrades! Which of our services excites you?"
     >
-      <option value="1">Option 1</option>
-      <option value="2">Option 2</option>
+      <option value="1">Mobile App Development</option>
+      <option value="2">Website Development</option>
     </select>
   </div>
   <div className="">
