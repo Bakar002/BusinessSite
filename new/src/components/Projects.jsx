@@ -16,7 +16,7 @@ import img6 from "../assets/images/cat6.png";
 function Projects() {
   return (
     <div className="bg-gray-950 p-4">
-      <div className="container mx-auto min-h-[700px] w-full pb-6">
+      <div className="container mx-auto min-h-[400px] h-auto w-full pb-20 ">
         <h1
           style={{ fontFamily: "clashBold" }}
           className="uppercase pt-12 pl-6 text text-[rgba(255,255,255,1)] text-[50px] md:text-[76px] tracking-[4%]"

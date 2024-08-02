@@ -11,7 +11,7 @@ import { FreeMode, Pagination, Navigation } from "swiper/modules";
 
 function Clients() {
   return (
-    <div className="bg-[rgba(0,0,0,1)] relative w-full min-h-[846px]">
+    <div className="bg-[rgba(0,0,0,1)] relative w-full min-h-[400px]">
       <div className="container relative mx-auto w-full h-full">
         <img
           src={map}
