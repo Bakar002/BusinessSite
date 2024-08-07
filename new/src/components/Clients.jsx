@@ -75,7 +75,7 @@ const arr = [
     name: "Abhijit Jadhav",
     title: "Pehul Hotel Bookings App",
     titleSize: "text-[18px] md:text-[22px] ",
-    commentSize: "text-[18px] md:text-[30px] max-sm:text-[22px]",
+    commentSize: "text-[18px] md:text-[22px] max-sm:text-[20px]",
     descSize: "text-[12px] md:text-[14px]",
   },
   {
@@ -86,7 +86,7 @@ const arr = [
     name: "Parvej Shaikh",
     title: "No Title Provided", // Fixed missing title
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px] max-sm:text-[25px]",
+    commentSize: "text-[18px] md:text-[22px] max-sm:text-[25px]",
     descSize: "text-[12px] md:text-[14px]",
   },
   {
@@ -97,7 +97,7 @@ const arr = [
     name: "Akshay Dinge",
     title: "Car Service App",
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px] max-sm:text-[25px]",
+    commentSize: "text-[18px] md:text-[22px] max-sm:text-[25px]",
     descSize: "text-[12px] md:text-[14px]",
   },
   {
@@ -108,7 +108,7 @@ const arr = [
     name: "Pranav Dhamal",
     title: "ICSE E-Book App",
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px] max-sm:text-[20px]",
+    commentSize: "text-[18px] md:text-[22px] max-sm:text-[19px]",
     descSize: "text-[12px] md:text-[14px]",
   },
   {
@@ -119,7 +119,7 @@ const arr = [
     name: "Ravindra Bansode",
     title: "Pass 11 App",
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[16px] md:text-[28px] max-sm:text-[19px]",
+    commentSize: "text-[16px] md:text-[22px] max-sm:text-[16px]",
     descSize: "text-[12px] md:text-[14px] ",
   },
   {
@@ -130,7 +130,7 @@ const arr = [
     name: "Sarvesh",
     title: "Learn Era App",
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px] max-sm:text-[21px]",
+    commentSize: "text-[18px] md:text-[22px] max-sm:text-[19px]",
     descSize: "text-[12px] md:text-[14px]",
   },
 ];
