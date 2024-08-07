@@ -45,7 +45,7 @@ function Clients() {
           initialSlide={0}
         >
           {arr.map((data) => (
-            <SwiperSlide key={data.id} className="pb-[10px]">
+            <SwiperSlide key={data.id} className="pb-[10px] max-sm:h-fit">
               <Tesmonial
                 user={data.userPic}
                 name={data.name}
@@ -74,8 +74,8 @@ const arr = [
     userPic: user,
     name: "Abhijit Jadhav",
     title: "Pehul Hotel Bookings App",
-    titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px]",
+    titleSize: "text-[18px] md:text-[22px] ",
+    commentSize: "text-[18px] md:text-[30px] max-sm:text-[22px]",
     descSize: "text-[12px] md:text-[14px]",
   },
   {
@@ -86,7 +86,7 @@ const arr = [
     name: "Parvej Shaikh",
     title: "No Title Provided", // Fixed missing title
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px]",
+    commentSize: "text-[18px] md:text-[30px] max-sm:text-[25px]",
     descSize: "text-[12px] md:text-[14px]",
   },
   {
@@ -97,7 +97,7 @@ const arr = [
     name: "Akshay Dinge",
     title: "Car Service App",
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px]",
+    commentSize: "text-[18px] md:text-[30px] max-sm:text-[25px]",
     descSize: "text-[12px] md:text-[14px]",
   },
   {
@@ -108,7 +108,7 @@ const arr = [
     name: "Pranav Dhamal",
     title: "ICSE E-Book App",
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px]",
+    commentSize: "text-[18px] md:text-[30px] max-sm:text-[20px]",
     descSize: "text-[12px] md:text-[14px]",
   },
   {
@@ -119,8 +119,8 @@ const arr = [
     name: "Ravindra Bansode",
     title: "Pass 11 App",
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px]",
-    descSize: "text-[12px] md:text-[14px]",
+    commentSize: "text-[16px] md:text-[28px] max-sm:text-[19px]",
+    descSize: "text-[12px] md:text-[14px] ",
   },
   {
     id: 6,
@@ -130,7 +130,7 @@ const arr = [
     name: "Sarvesh",
     title: "Learn Era App",
     titleSize: "text-[18px] md:text-[22px]",
-    commentSize: "text-[18px] md:text-[30px]",
+    commentSize: "text-[18px] md:text-[30px] max-sm:text-[21px]",
     descSize: "text-[12px] md:text-[14px]",
   },
 ];

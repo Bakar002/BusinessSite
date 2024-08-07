@@ -1,4 +1,5 @@
 import Logo from "../assets/images/logo.svg";
+import Logo1 from "../assets/images/fr.png";
 import whatsappLogo from "../assets/whatsapp.svg";
 
 const ContactUs = {
@@ -17,7 +18,7 @@ function Navbar() {
   return (
     <nav className="bg-transparent p-4 flex justify-between items-center">
       <div className="flex items-center">
-        <img src={Logo} alt="Logo" className="h-10" />
+        <img src={Logo1} alt="Logo" className="h-10" />
       </div>
       <div className="flex items-center justify-between w-[auto] md:w-[170px]">
         <div style={border} className="rounded-full">
