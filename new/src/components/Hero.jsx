@@ -50,8 +50,8 @@ function Hero() {
                 happen.
               </p>
             </div>
-            <div className="max-w-full p-6 bg-[rgba(138,138,138,0.12)] rounded-lg">
-            <div className="w-full max-w-[400px] pb-6">
+            <div className="max-w-full p-6 bg-[rgba(138,138,138,0.12)] rounded-lg"id="form-contact">
+            <div className="w-full max-w-[400px] pb-6" >
 
                 <h1
                   style={{ fontFamily: "clashSemiBold" }}
@@ -66,7 +66,7 @@ function Hero() {
               </div>
 
 
-              <form className="relative grid grid-cols-1 md:grid-cols-2 gap-6">
+              <form className="relative grid grid-cols-1 md:grid-cols-2 gap-6" >
   <img
     src={sampleImage}
     alt="Top Right Image"

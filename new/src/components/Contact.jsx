@@ -1,5 +1,5 @@
 import group from "../assets/Group.svg";
-
+import { Link } from 'react-scroll';
 const color = {
   border: "1px solid",
   borderImageSource:
@@ -34,12 +34,15 @@ function Contact() {
             free consultation and let's get started on your next big idea!
           </p>
           <div className="flex items-center justify-center mt-10">
-            <button
-              style={{ fontFamily: "clashMedium" }}
-              className="bg-[rgba(255,0,0,1)] rounded-[6px] text-white text-[14px] py-2 px-4 focus:outline-none focus:ring-2 focus:ring-[rgba(255,0,0,1)] focus:ring-opacity-50"
-            >
-              Get a Quote
-            </button>
+          <Link
+      to="form-contact"
+      smooth={true}
+      duration={500}
+      className="bg-[rgba(255,0,0,1)] rounded-[6px] text-white text-[14px] py-2 px-4 focus:outline-none focus:ring-2 focus:ring-[rgba(255,0,0,1)] focus:ring-opacity-50"
+      style={{ fontFamily: "clashMedium" }}
+    >
+      Get a Quote
+    </Link>
           </div>
         </div>
       </div>

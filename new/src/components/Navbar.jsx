@@ -1,6 +1,7 @@
 import Logo from "../assets/images/logo.svg";
 import Logo1 from "../assets/images/fr.png";
 import whatsappLogo from "../assets/whatsapp.svg";
+import { Link } from 'react-scroll';
 
 const ContactUs = {
   background:
@@ -22,12 +23,18 @@ function Navbar() {
       </div>
       <div className="flex items-center justify-between w-[auto] md:w-[170px]">
         <div style={border} className="rounded-full">
+        <Link
+      to="form-contact"
+      smooth={true}
+      duration={500}
+    >
           <button
             className=" text-white px-[16px] py-[8px] rounded-full "
             style={ContactUs}
           >
             Contact Us
           </button>
+          </Link>
         </div>
         <a href="#" className="hidden h-[40px] w-[40px] md:block">
           <img src={whatsappLogo} alt="whatsapp" />
